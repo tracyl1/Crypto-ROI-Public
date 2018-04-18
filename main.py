@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-import sheets
 
 cardData = pd.read_csv('CardData.csv', header=0, encoding='utf-8-sig')
 coinData = pd.read_csv('CoinData.csv', header=0, encoding='utf-8-sig')
